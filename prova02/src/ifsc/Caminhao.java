@@ -3,11 +3,11 @@ package ifsc;
 public class Caminhao extends Veiculo{
 
 	private int eixos;
-    public Caminhao() {
-    	
-    }
-	public Caminhao(String placa,int ano,int eixos) {
-		
+       public Caminhao() {}
+       public Caminhao(String placa,int ano,int eixos) {
+	      super.setPlaca(placa);
+	      super.setAno(ano);
+	      this.eixos =eixos;	
 	}
 	public int getEixos() {
 		return eixos;
