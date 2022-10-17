@@ -5,8 +5,8 @@ public class Caminhao extends Veiculo{
 	private int eixos;
        public Caminhao() {}
        public Caminhao(String placa,int ano,int eixos) {
-	      super.setPlaca(placa);
-	      super.setAno(ano);
+	      super.getPlaca();
+	      super.getAno();
 	      this.eixos =eixos;	
 	}
 	public int getEixos() {
